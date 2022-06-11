@@ -1,0 +1,2201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Library Management System\n"
+"POT-Creation-Date: 2020-03-09 02:21+0530\n"
+"PO-Revision-Date: 2020-03-08 19:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: about.php:20 addbook.php:14 addpage.php:34 adduser.php:19
+#: bookissuedforusers.php:21 booklistforuser.php:19 bulkmanagement.php:16
+#: changepassword.php:21 dashboard.php:22 dashboard.php:27 institution.php:38
+#: issuebook.php:16 listofduepaid.php:22 managebooks.php:16
+#: managecourses.php:16 managefines.php:18 manageissuedbooks.php:14
+#: managepage.php:16 managereturnarchive.php:18 managereturnarchiveuser.php:31
+#: manageslides.php:14 manageusers.php:22 manageyears.php:16
+#: othersettings.php:53 report_bug.php:19 requestbook.php:38 sidebar(Not In
+#: Use).php:111 sidebar-user.php:87 sidebar.php:111 updatecontrol.php:17
+#: updateprofile.php:33 userprofile.php:18 viewrequestbook.php:21
+msgid "Dashboard"
+msgstr ""
+
+#: about.php:21 addbook.php:15 addpage.php:35 adduser.php:20
+#: bookissuedforusers.php:22 booklistforuser.php:20 bulkmanagement.php:17
+#: changepassword.php:22 dashboard.php:23 institution.php:39 issuebook.php:17
+#: listofduepaid.php:23 managebooks.php:17 managecourses.php:17
+#: managefines.php:19 manageissuedbooks.php:15 managepage.php:17
+#: managereturnarchive.php:19 managereturnarchiveuser.php:32
+#: manageslides.php:15 manageusers.php:23 manageyears.php:17
+#: othersettings.php:54 report_bug.php:20 requestbook.php:39
+#: updatecontrol.php:18 updateprofile.php:34 userprofile.php:19
+#: viewrequestbook.php:22
+msgid "Control panel"
+msgstr ""
+
+#: about.php:24 addbook.php:29 addpage.php:38 adduser.php:23
+#: bookissuedforusers.php:25 booklistforuser.php:23 bulkmanagement.php:20
+#: changepassword.php:25 dashboard.php:26 institution.php:42 issuebook.php:20
+#: listofduepaid.php:26 managebooks.php:24 managecourses.php:20
+#: managefines.php:22 manageissuedbooks.php:18 managepage.php:20
+#: managereturnarchive.php:22 managereturnarchiveuser.php:35
+#: manageslides.php:18 manageusers.php:26 manageyears.php:20
+#: othersettings.php:57 report_bug.php:23 requestbook.php:42
+#: updatecontrol.php:21 updateprofile.php:37 userprofile.php:22
+#: viewrequestbook.php:25
+msgid "Home"
+msgstr ""
+
+#: about.php:25
+msgid "About Us"
+msgstr ""
+
+#: about.php:39 sidebar(Not In Use).php:285 sidebar-user.php:123
+#: sidebar.php:285
+msgid "About Software"
+msgstr ""
+
+#: about.php:44
+msgid ""
+"This software was designed for library book management. This system can\n"
+"                  be able to speed-up the proccess of borrowing of books, "
+"searching of books if available at library via online interface,\n"
+"                  monitoring of due of borrowed books , user can easily pay "
+"dues via paypal. And many more impressive functionality at disposal"
+msgstr ""
+
+#: addbook.php:30 addbook.php:47 addbook.php:185
+msgid "Add Book"
+msgstr ""
+
+#: addbook.php:56 booklistforuser.php:57 booklistforuser.php:77
+#: issuebook.php:93 managebooks.php:58 managebooks.php:79
+msgid "ISBN"
+msgstr ""
+
+#: addbook.php:72
+msgid "Author Name"
+msgstr ""
+
+#: addbook.php:75
+msgid "Enter Author Name"
+msgstr ""
+
+#: addbook.php:80 issuebook.php:73
+msgid "Book Title"
+msgstr ""
+
+#: addbook.php:83 managebooks.php:184
+msgid "Enter Book Title"
+msgstr ""
+
+#: addbook.php:89 booklistforuser.php:80 managebooks.php:84
+msgid "Category"
+msgstr ""
+
+#: addbook.php:92
+msgid ""
+"Categories books as per your need.Since it will become the menu in the front "
+"end.Make it short and simple."
+msgstr ""
+
+#: addbook.php:94
+msgid "Enter Category"
+msgstr ""
+
+#: addbook.php:99
+msgid "Publisher"
+msgstr ""
+
+#: addbook.php:102
+msgid "Enter Publisher Name"
+msgstr ""
+
+#: addbook.php:108
+msgid "Google Book Url"
+msgstr ""
+
+#: addbook.php:110
+msgid "Google Book Preview Will Auto Populate here"
+msgstr ""
+
+#: addbook.php:112
+msgid ""
+"Google Book Preview Will Auto Populate here if there are no preview "
+"available then you can upload pdf book below."
+msgstr ""
+
+#: addbook.php:130
+msgid "Upload Book Img"
+msgstr ""
+
+#: addbook.php:134
+msgid "Upload image if no google image preview available."
+msgstr ""
+
+#: addbook.php:138
+msgid "Upload Pdf"
+msgstr ""
+
+#: addbook.php:142
+msgid "Upload pdf if no preview available."
+msgstr ""
+
+#: addbook.php:147
+msgid "External Url"
+msgstr ""
+
+#: addbook.php:151
+msgid "Enter exteral url"
+msgstr ""
+
+#: addbook.php:153
+msgid ""
+"When you enter the external url the user will be redirected to this link "
+"instead of a preview."
+msgstr ""
+
+#: addbook.php:158 booklistforuser.php:81 issuebook.php:91 managebooks.php:85
+msgid "Price"
+msgstr ""
+
+#: addbook.php:161 managebooks.php:221
+msgid "Enter Price"
+msgstr ""
+
+#: addbook.php:166
+msgid "Quantity"
+msgstr ""
+
+#: addbook.php:169
+msgid "Enter Book Quantity"
+msgstr ""
+
+#: addbook.php:174 bookissuedforusers.php:58 booklistforuser.php:79
+#: managebooks.php:83
+msgid "Book Desc"
+msgstr ""
+
+#: addbook.php:178
+msgid "Enter Book Description"
+msgstr ""
+
+#: addpage.php:39 addpage.php:61
+msgid "Add Pages"
+msgstr ""
+
+#: addpage.php:70 managepage.php:39
+msgid "Page Title"
+msgstr ""
+
+#: addpage.php:86
+msgid "Page Menu Name"
+msgstr ""
+
+#: addpage.php:87
+msgid "Enter a page tile"
+msgstr ""
+
+#: addpage.php:93 report_bug.php:70
+msgid "Description"
+msgstr ""
+
+#: adduser.php:24 adduser.php:82 sidebar(Not In Use).php:193 sidebar.php:193
+msgid "Add User"
+msgstr ""
+
+#: adduser.php:63
+msgid "User Pic"
+msgstr ""
+
+#: adduser.php:92 adduser.php:95 manageusers.php:238 manageusers.php:241
+#: updateprofile.php:66 updateprofile.php:67 userprofile.php:73
+msgid "First Name"
+msgstr ""
+
+#: adduser.php:103 adduser.php:106 manageusers.php:249 manageusers.php:251
+#: updateprofile.php:73 updateprofile.php:74 userprofile.php:85
+msgid "Last Name"
+msgstr ""
+
+#: adduser.php:114 issuebook.php:128 manageusers.php:59 updateprofile.php:79
+#: userprofile.php:97
+msgid "Email"
+msgstr ""
+
+#: adduser.php:117
+msgid ""
+"Make sure you put a proper email as this will be the username of this person "
+"& cannot be changed later."
+msgstr ""
+
+#: adduser.php:118 institution.php:104 manageusers.php:261 updateprofile.php:80
+msgid "E-Mail Address"
+msgstr ""
+
+#: adduser.php:126 manageusers.php:278 userprofile.php:137
+msgid "Course Name"
+msgstr ""
+
+#: adduser.php:131 manageusers.php:283
+msgid "------------Select Course Name------------"
+msgstr ""
+
+#: adduser.php:148 userprofile.php:155
+msgid "Year"
+msgstr ""
+
+#: adduser.php:152 manageusers.php:305
+msgid "------------Select Course Year------------"
+msgstr ""
+
+#: adduser.php:170 contact_us.php:43 institution.php:120 issuebook.php:126
+#: manageusers.php:69 manageusers.php:93 manageusers.php:268
+#: updateprofile.php:87 userprofile.php:108
+msgid "Phone"
+msgstr ""
+
+#: adduser.php:173
+msgid "This will be his default password for login"
+msgstr ""
+
+#: adduser.php:182 contact_us.php:41 institution.php:134 issuebook.php:132
+#: manageusers.php:359 updateprofile.php:121 updateprofile.php:122
+#: userprofile.php:182
+msgid "Address"
+msgstr ""
+
+#: adduser.php:191 adduser.php:195 institution.php:157 manageusers.php:322
+#: updateprofile.php:94 updateprofile.php:95 userprofile.php:119
+msgid "City"
+msgstr ""
+
+#: adduser.php:204 institution.php:162 manageusers.php:334
+#: updateprofile.php:101 userprofile.php:131
+msgid "State"
+msgstr ""
+
+#: adduser.php:213 institution.php:148 manageusers.php:342
+#: updateprofile.php:107 userprofile.php:175
+msgid "Zip"
+msgstr ""
+
+#: adduser.php:216 institution.php:150 updateprofile.php:108
+msgid "Zip Code"
+msgstr ""
+
+#: adduser.php:224
+msgid "Will be availabe in future update."
+msgstr ""
+
+#: adduser.php:224 manageusers.php:350
+msgid "Role"
+msgstr ""
+
+#: adduser.php:228 manageusers.php:353
+msgid "Student"
+msgstr ""
+
+#: adduser.php:229 manageusers.php:354
+msgid "Teacher"
+msgstr ""
+
+#: adduser.php:235
+msgid "Notes"
+msgstr ""
+
+#: adduser.php:238 listofduepaid.php:44 managereturnarchive.php:89
+#: managereturnarchiveuser.php:67 manageusers.php:366 manageusers.php:371
+msgid "Note"
+msgstr ""
+
+#: adduser.php:244 institution.php:198 managecourses.php:48 manageusers.php:379
+#: manageyears.php:48 othersettings.php:440 updateprofile.php:129
+msgid "Save"
+msgstr ""
+
+#: backup_tables.php:20
+msgid "Backup entire db. Files can be found under backup/databases/"
+msgstr ""
+
+#: backup_tables.php:22
+msgid "Backup failed"
+msgstr ""
+
+#: basic_setups.php:56
+msgid "Book title seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:57
+msgid "Book title must't consist of more than 150 characters."
+msgstr ""
+
+#: basic_setups.php:58
+msgid "Price is required."
+msgstr ""
+
+#: basic_setups.php:59
+msgid "Password required."
+msgstr ""
+
+#: basic_setups.php:60
+msgid "Your password must consist at least 8 characters"
+msgstr ""
+
+#: basic_setups.php:61
+msgid "Your password must consist no more than 15 characters"
+msgstr ""
+
+#: basic_setups.php:62
+msgid "Password don't match!"
+msgstr ""
+
+#: basic_setups.php:63
+msgid "Isbn is required."
+msgstr ""
+
+#: basic_setups.php:64
+msgid "Isbn should be of min 5 characters."
+msgstr ""
+
+#: basic_setups.php:65
+msgid "Isbn must consist of no more than 20 characters."
+msgstr ""
+
+#: basic_setups.php:66
+msgid "Book title is required."
+msgstr ""
+
+#: basic_setups.php:67
+msgid "Are your sure to approve the request?"
+msgstr ""
+
+#: basic_setups.php:68
+msgid "Are your sure to dissapprove the request?"
+msgstr ""
+
+#: basic_setups.php:69
+msgid "Book category is required."
+msgstr ""
+
+#: basic_setups.php:70
+msgid "Book consist must't consist of more than 50 characters."
+msgstr ""
+
+#: basic_setups.php:71
+msgid "Are your sure to delete this request?"
+msgstr ""
+
+#: basic_setups.php:72
+msgid "Minimum 1 Qty is required."
+msgstr ""
+
+#: basic_setups.php:73
+msgid "Invalid data found."
+msgstr ""
+
+#: basic_setups.php:74
+msgid "First name is required."
+msgstr ""
+
+#: basic_setups.php:75
+msgid "First name seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:76
+msgid "No file selected.Kindly select an Image file to upload"
+msgstr ""
+
+#: basic_setups.php:77
+msgid "Are your sure to approve this due?"
+msgstr ""
+
+#: basic_setups.php:78
+msgid "Last name is required."
+msgstr ""
+
+#: basic_setups.php:79
+msgid "Last name seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:80
+msgid "Note :This action is isreversible."
+msgstr ""
+
+#: basic_setups.php:81
+msgid "Now you can update by just a single click."
+msgstr ""
+
+#: basic_setups.php:82
+msgid "Email is invalid."
+msgstr ""
+
+#: basic_setups.php:83
+msgid "Email Id is required."
+msgstr ""
+
+#: basic_setups.php:84
+msgid "Phone number is required."
+msgstr ""
+
+#: basic_setups.php:85
+msgid "Phone number seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:86
+msgid "Address is required."
+msgstr ""
+
+#: basic_setups.php:87
+msgid "Address seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:88
+msgid "Note: All the files which are updated is backuped in 'bck' folder."
+msgstr ""
+
+#: basic_setups.php:89
+msgid "City name is required."
+msgstr ""
+
+#: basic_setups.php:90
+msgid "Zip code seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:91
+msgid "State is required."
+msgstr ""
+
+#: basic_setups.php:92
+msgid "Zip code is required."
+msgstr ""
+
+#: basic_setups.php:93
+msgid "Instituion name seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:94
+msgid "START"
+msgstr ""
+
+#: basic_setups.php:95
+msgid "Name is required."
+msgstr ""
+
+#: basic_setups.php:96
+msgid "Name seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:97
+msgid "All files are updated."
+msgstr ""
+
+#: basic_setups.php:98
+msgid "files found to be updated."
+msgstr ""
+
+#: basic_setups.php:99
+msgid "Preparing file for update..."
+msgstr ""
+
+#: basic_setups.php:100
+msgid "Backing up code in bck/ folder..."
+msgstr ""
+
+#: basic_setups.php:101
+msgid "Edit mode set.Now upload the image."
+msgstr ""
+
+#: basic_setups.php:102
+msgid "Library Popular Book Data"
+msgstr ""
+
+#: basic_setups.php:103
+msgid "Are your sure to submit the request?"
+msgstr ""
+
+#: basic_setups.php:104
+msgid "Book Issued"
+msgstr ""
+
+#: basic_setups.php:105
+msgid "to you needs to be return to the library."
+msgstr ""
+
+#: basic_setups.php:106
+msgid "Please wait...."
+msgstr ""
+
+#: basic_setups.php:107
+msgid "Book has already been Issued."
+msgstr ""
+
+#: basic_setups.php:108
+msgid "Book has been issued so get it returned before disabling it."
+msgstr ""
+
+#: basic_setups.php:109
+msgid "Url seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:110
+msgid "Url is requried."
+msgstr ""
+
+#: basic_setups.php:111
+msgid "Content is requried."
+msgstr ""
+
+#: basic_setups.php:112
+msgid "Book ID is required."
+msgstr ""
+
+#: basic_setups.php:113
+msgid "Book ID seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:114
+msgid "User ID is required."
+msgstr ""
+
+#: basic_setups.php:115
+msgid "User ID seems to be invalid."
+msgstr ""
+
+#: basic_setups.php:116
+msgid "Date of issue is required."
+msgstr ""
+
+#: basic_setups.php:117
+msgid "Date of return is required."
+msgstr ""
+
+#: basic_setups.php:118
+msgid "Book Name is required."
+msgstr ""
+
+#: basic_setups.php:119
+msgid "Book Name seems to be invalid.Min 10 characters."
+msgstr ""
+
+#: basic_setups.php:120
+msgid "Note is required."
+msgstr ""
+
+#: basic_setups.php:121
+msgid "Notes needs to be more than 50 characters."
+msgstr ""
+
+#: basic_setups.php:122
+msgid " Entries In Total"
+msgstr ""
+
+#: basic_setups.php:123
+msgid "Are you sure?"
+msgstr ""
+
+#: basic_setups.php:124
+msgid "Are your sure about to delete this book?"
+msgstr ""
+
+#: basic_setups.php:125 module/fn_user.php:174
+msgid "User has been deactivated!."
+msgstr ""
+
+#: basic_setups.php:126
+msgid "Content data is missing."
+msgstr ""
+
+#: basic_setups.php:127
+msgid "We couldn't find the book you are looking for, so fill it manually .."
+msgstr ""
+
+#: basic_setups.php:128
+msgid "Course name is required."
+msgstr ""
+
+#: basic_setups.php:129
+msgid "Course Year is required."
+msgstr ""
+
+#: basic_setups.php:130
+msgid "We are serching for the book details. Plz Wait.."
+msgstr ""
+
+#: basic_setups.php:131
+msgid "Add book to this ISBN?"
+msgstr ""
+
+#: basic_setups.php:132
+msgid "User has been deleted!."
+msgstr ""
+
+#: basic_setups.php:133
+msgid "User has been approved!."
+msgstr ""
+
+#: basic_setups.php:134
+msgid "Are your sure to approve this user?"
+msgstr ""
+
+#: basic_setups.php:135
+msgid "Password updated successfully"
+msgstr ""
+
+#: basic_setups.php:136
+msgid "No file selected.Kindly select an Csv file to upload"
+msgstr ""
+
+#: basic_setups.php:523
+msgid "------------Select State------------"
+msgstr ""
+
+#: basic_setups.php:543
+msgid "Tested And Best Supported On PHP version  <=7.0.30"
+msgstr ""
+
+#: basic_setups.php:548
+msgid "You are running PHP version "
+msgstr ""
+
+#: bookissuedforusers.php:26
+msgid "My Issued Books List"
+msgstr ""
+
+#: bookissuedforusers.php:55 listofduepaid.php:68 managecategories.php:38
+#: managecourses.php:62 manageissuedbooks.php:73 managepage.php:42
+#: manageslides.php:57 manageusers.php:98 manageyears.php:64
+#: requestbook.php:127 viewrequestbook.php:56
+msgid "Action"
+msgstr ""
+
+#: bookissuedforusers.php:56 manageissuedbooks.php:66
+#: managereturnarchive.php:49 managereturnarchive.php:79
+#: managereturnarchiveuser.php:57
+msgid "Book ID"
+msgstr ""
+
+#: bookissuedforusers.php:57 booklistforuser.php:46 booklistforuser.php:78
+#: managebooks.php:46 managebooks.php:81 manageissuedbooks.php:67
+#: managereturnarchive.php:80 managereturnarchiveuser.php:58
+#: requestbook.php:120 viewrequestbook.php:49
+msgid "Book Name"
+msgstr ""
+
+#: bookissuedforusers.php:59 manageissuedbooks.php:68
+#: managereturnarchive.php:40 managereturnarchive.php:81
+#: managereturnarchiveuser.php:59 manageusers.php:39 manageusers.php:45
+#: requestbook.php:123 userprofile.php:63 viewrequestbook.php:52
+msgid "User ID"
+msgstr ""
+
+#: bookissuedforusers.php:60 manageissuedbooks.php:69
+#: managereturnarchive.php:82 managereturnarchiveuser.php:60
+#: requestbook.php:124
+msgid "Person Name"
+msgstr ""
+
+#: bookissuedforusers.php:61 listofduepaid.php:62 manageissuedbooks.php:70
+#: managereturnarchive.php:83 managereturnarchiveuser.php:61
+msgid "Issued Date"
+msgstr ""
+
+#: bookissuedforusers.php:62 manageissuedbooks.php:71
+#: managereturnarchive.php:84 managereturnarchiveuser.php:62
+msgid "Date Due"
+msgstr ""
+
+#: bookissuedforusers.php:63
+msgid "Days To Go"
+msgstr ""
+
+#: bookissuedforusers.php:82
+msgid "None"
+msgstr ""
+
+#: bookissuedforusers.php:83
+msgid "Due Paid"
+msgstr ""
+
+#: bookissuedforusers.php:86
+msgid "Waiting Approval"
+msgstr ""
+
+#: bookissuedforusers.php:93
+msgid "Payment failed"
+msgstr ""
+
+#: bookissuedforusers.php:96
+msgid ""
+"Something is not right.If you have made the payment you can contact the "
+"admin for further queries."
+msgstr ""
+
+#: bookissuedforusers.php:116
+msgid "No books has been issued yet!."
+msgstr ""
+
+#: bookissuedforusers.php:138 index.php:451 managebooks.php:104
+#: managebooks.php:165 managecourses.php:77 manageissuedbooks.php:104
+#: manageissuedbooks.php:158 manageyears.php:82
+msgid "Close"
+msgstr ""
+
+#: bookissuedforusers.php:141
+msgid "Payment Details"
+msgstr ""
+
+#: bookissuedforusers.php:168
+msgid "Due to pay"
+msgstr ""
+
+#: bookissuedforusers.php:172 listofduepaid.php:66
+msgid "Mode"
+msgstr ""
+
+#: bookissuedforusers.php:173 sidebar(Not In Use).php:101 sidebar-user.php:77
+#: sidebar.php:101
+msgid "Online"
+msgstr ""
+
+#: bookissuedforusers.php:176
+msgid "Delayed Days"
+msgstr ""
+
+#: bookissuedforusers.php:180
+msgid "Per Day Fine"
+msgstr ""
+
+#: bookissuedforusers.php:189
+msgid "Pay Now"
+msgstr ""
+
+#: booklistforuser.php:24
+msgid "Book List For User"
+msgstr ""
+
+#: booklistforuser.php:53 managebooks.php:53
+msgid "Type Book Name"
+msgstr ""
+
+#: booklistforuser.php:63 managebooks.php:65
+msgid "Type ISBN"
+msgstr ""
+
+#: booklistforuser.php:82 managebooks.php:86
+msgid "Qty"
+msgstr ""
+
+#: booklistforuser.php:83 issuebook.php:87 managebooks.php:87
+msgid "Borrowed"
+msgstr ""
+
+#: bulkmanagement.php:21 sidebar(Not In Use).php:272 sidebar.php:272
+msgid "Bulk Manager"
+msgstr ""
+
+#: bulkmanagement.php:47 bulkmanagement.php:84
+msgid "Upload CSV File"
+msgstr ""
+
+#: changepassword.php:26 changepassword.php:73 forgotpassword.php:17
+#: sidebar(Not In Use).php:126 sidebar-user.php:93 sidebar.php:126
+msgid "Change Password"
+msgstr ""
+
+#: changepassword.php:39
+msgid "Change password"
+msgstr ""
+
+#: changepassword.php:40
+msgid "Hints on getting your new password right:"
+msgstr ""
+
+#: changepassword.php:41
+msgid "Your new password must be between 8 and 15 characters in length."
+msgstr ""
+
+#: changepassword.php:44 changepassword.php:47
+msgid "New Password"
+msgstr ""
+
+#: changepassword.php:54
+msgid "Confirm New Password"
+msgstr ""
+
+#: changepassword.php:57
+msgid "Confirm Password"
+msgstr ""
+
+#: cleartheme.php:11
+msgid ""
+"Theme Data Has Been Cleared . To Again Start With Default Setting You Can "
+"Reactivate The Theme"
+msgstr ""
+
+#: cleartheme.php:13
+msgid "Illegal Access"
+msgstr ""
+
+#: contact_us.php:14
+msgid "Touch with us"
+msgstr ""
+
+#: contact_us.php:25
+msgid "Google Maps iframe generator"
+msgstr ""
+
+#: contact_us.php:37
+msgid "About us"
+msgstr ""
+
+#: contact_us.php:46 institution.php:127
+msgid "Fax"
+msgstr ""
+
+#: contact_us.php:48
+msgid "E-mail"
+msgstr ""
+
+#: contact_us.php:57
+msgid "Your name"
+msgstr ""
+
+#: contact_us.php:59
+msgid "Enter Name"
+msgstr ""
+
+#: contact_us.php:63 manageusers.php:66 manageusers.php:92
+msgid "Email Address"
+msgstr ""
+
+#: contact_us.php:65
+msgid "Enter Email id"
+msgstr ""
+
+#: contact_us.php:69
+msgid "Mobile No"
+msgstr ""
+
+#: contact_us.php:72
+msgid "Enter 10-digit mobile no."
+msgstr ""
+
+#: contact_us.php:78
+msgid "Message"
+msgstr ""
+
+#: contact_us.php:80
+msgid "Enter Your Message"
+msgstr ""
+
+#: contact_us.php:85
+msgid "Send Message"
+msgstr ""
+
+#: contact_us.php:98
+msgid "All rights reserved."
+msgstr ""
+
+#: dashboard.php:40
+msgid "Issued Books"
+msgstr ""
+
+#: dashboard.php:55 manageusers.php:27 sidebar(Not In Use).php:186
+#: sidebar.php:186
+msgid "Manage Users"
+msgstr ""
+
+#: dashboard.php:70 managebooks.php:25 managebooks.php:107 sidebar(Not In
+#: Use).php:135 sidebar.php:135
+msgid "Manage Books"
+msgstr ""
+
+#: dashboard.php:85
+msgid "Fine Collected"
+msgstr ""
+
+#: footer.php:9
+msgid ""
+"All\n"
+"  rights reserved."
+msgstr ""
+
+#: forgotpassword.php:15
+msgid "Library Management"
+msgstr ""
+
+#: forgotpassword.php:24
+msgid "Username or Email Address"
+msgstr ""
+
+#: forgotpassword.php:33
+msgid "Send Password"
+msgstr ""
+
+#: forgotpassword.php:39 front-nav.php:103
+msgid "Login"
+msgstr ""
+
+#: functions.php:55
+msgid ""
+"Hint : The theme supports translation & This can be easily achieved with "
+"plugin called as \"Loco Translate\""
+msgstr ""
+
+#: import_books.php:26
+msgid "Books Has Been Imported Successfully."
+msgstr ""
+
+#: import_books.php:29
+msgid "Books Import Failed."
+msgstr ""
+
+#: import_books.php:32
+msgid "No Sql data found."
+msgstr ""
+
+#: import_books.php:47
+msgid "Demo Content Has Been Imported Successfully."
+msgstr ""
+
+#: import_books.php:50
+msgid "Demo Import Failed."
+msgstr ""
+
+#: import_books.php:53
+msgid "No Demo data found."
+msgstr ""
+
+#: index.php:333 index.php:511
+msgid "Available"
+msgstr ""
+
+#: index.php:339 index.php:516
+msgid "All Issued"
+msgstr ""
+
+#: index.php:430
+msgid "No Books Available Right Now.Come Back Later."
+msgstr ""
+
+#: index.php:453
+msgid "Books Preview"
+msgstr ""
+
+#: institution.php:43
+msgid "Update Institution Details"
+msgstr ""
+
+#: institution.php:54
+msgid "Institution Logo"
+msgstr ""
+
+#: institution.php:66
+msgid "Update Institution Profile"
+msgstr ""
+
+#: institution.php:76 institution.php:79
+msgid "Institution Name"
+msgstr ""
+
+#: institution.php:84 institution.php:86
+msgid "Institution Desc"
+msgstr ""
+
+#: institution.php:92
+msgid "Contact Person"
+msgstr ""
+
+#: institution.php:94
+msgid "Contact Name"
+msgstr ""
+
+#: institution.php:102
+msgid "E-Mail"
+msgstr ""
+
+#: institution.php:110
+msgid "Website"
+msgstr ""
+
+#: institution.php:112
+msgid "Website or domain name"
+msgstr ""
+
+#: institution.php:128
+msgid "Fax Number"
+msgstr ""
+
+#: institution.php:141
+msgid "Gmap Link"
+msgstr ""
+
+#: institution.php:142
+msgid "GMap Link"
+msgstr ""
+
+#: institution.php:169
+msgid "Google Title"
+msgstr ""
+
+#: institution.php:171
+msgid "Meta Title"
+msgstr ""
+
+#: institution.php:177
+msgid "Google Desc"
+msgstr ""
+
+#: institution.php:178
+msgid "Meta Desc"
+msgstr ""
+
+#: institution.php:185
+msgid "Google Keywords"
+msgstr ""
+
+#: institution.php:188
+msgid "Meta Keywords Seperate it by comma"
+msgstr ""
+
+#: issuebook.php:21 issuebook.php:42 sidebar(Not In Use).php:163
+#: sidebar.php:163
+msgid "Issue Books"
+msgstr ""
+
+#: issuebook.php:53
+msgid "Shortcut Manage Books."
+msgstr ""
+
+#: issuebook.php:59
+msgid ""
+"You can find the book no in the Manage Book section.In real life scenerio "
+"those book nos needs to be written behind the book to uniquely identify each "
+"books."
+msgstr ""
+
+#: issuebook.php:61
+msgid "Type Book NO . Eg:4321603"
+msgstr ""
+
+#: issuebook.php:83
+msgid "Total Oty"
+msgstr ""
+
+#: issuebook.php:85
+msgid "Current Available"
+msgstr ""
+
+#: issuebook.php:101
+msgid "User Id"
+msgstr ""
+
+#: issuebook.php:103
+msgid "Type User ID. Eg : 1001"
+msgstr ""
+
+#: issuebook.php:110 manageusers.php:91 report_bug.php:52
+msgid "Name"
+msgstr ""
+
+#: issuebook.php:113 managefines.php:56 manageissuedbooks.php:50
+#: managereturnarchive.php:58 manageusers.php:49 manageusers.php:55
+#: viewrequestbook.php:53
+msgid "Persons Name"
+msgstr ""
+
+#: issuebook.php:140
+msgid "Date Issued"
+msgstr ""
+
+#: issuebook.php:150
+msgid "By when to Return"
+msgstr ""
+
+#: issuebook.php:162
+msgid "Issue Book"
+msgstr ""
+
+#: listofduepaid.php:28
+msgid "List Of Dues Paid Books"
+msgstr ""
+
+#: listofduepaid.php:45
+msgid ""
+"This page is used to approve the due payment which the user makes online & "
+"only approve the payment if he return the book/s to you.After you approve "
+"his/her payment the book gets added back to the system. Note this action is "
+"irreversible."
+msgstr ""
+
+#: listofduepaid.php:52
+msgid "Inv Id"
+msgstr ""
+
+#: listofduepaid.php:53 othersettings.php:140 othersettings.php:264
+msgid "Currency"
+msgstr ""
+
+#: listofduepaid.php:54
+msgid "PaymentId"
+msgstr ""
+
+#: listofduepaid.php:55
+msgid "PayerId"
+msgstr ""
+
+#: listofduepaid.php:56
+msgid "PayerEmail"
+msgstr ""
+
+#: listofduepaid.php:57
+msgid "PayerPhone"
+msgstr ""
+
+#: listofduepaid.php:58
+msgid "Payed Amount"
+msgstr ""
+
+#: listofduepaid.php:59
+msgid "Payment Status"
+msgstr ""
+
+#: listofduepaid.php:60
+msgid "BookId"
+msgstr ""
+
+#: listofduepaid.php:61
+msgid "UserId"
+msgstr ""
+
+#: listofduepaid.php:63
+msgid "Due Date"
+msgstr ""
+
+#: listofduepaid.php:64
+msgid "PayedForDays"
+msgstr ""
+
+#: listofduepaid.php:65
+msgid "PerDayFine"
+msgstr ""
+
+#: listofduepaid.php:67
+msgid "Time"
+msgstr ""
+
+#: login.php:17
+msgid "Back"
+msgstr ""
+
+#: login.php:30
+msgid "Login Failed."
+msgstr ""
+
+#: login.php:50
+msgid "Login Disabled"
+msgstr ""
+
+#: login.php:66
+msgid "Forgot Password"
+msgstr ""
+
+#: login.php:74
+msgid "Login Details"
+msgstr ""
+
+#: login.php:76
+msgid "Admin Login"
+msgstr ""
+
+#: login.php:80
+msgid "Try Admin"
+msgstr ""
+
+#: login.php:84
+msgid "Student Login"
+msgstr ""
+
+#: login.php:88
+msgid "Try Student"
+msgstr ""
+
+#: managebooks.php:20
+msgid "Export Books"
+msgstr ""
+
+#: managebooks.php:80
+msgid "Cover Image"
+msgstr ""
+
+#: managebooks.php:168
+msgid "Edit Books"
+msgstr ""
+
+#: managebooks.php:202
+msgid "Enter Book Category"
+msgstr ""
+
+#: managebooks.php:204
+msgid "This can be used to group books."
+msgstr ""
+
+#: managebooks.php:214
+msgid "Enter Author"
+msgstr ""
+
+#: managebooks.php:238
+msgid "Upload Book Cover"
+msgstr ""
+
+#: managebooks.php:257
+msgid "Upload Book Preview pdf file"
+msgstr ""
+
+#: managebooks.php:267 managebooks.php:269
+msgid ""
+"Enter any external url if you want user to redirect to it when book is "
+"clicked on front page"
+msgstr ""
+
+#: managebooks.php:281
+msgid "Note if any"
+msgstr ""
+
+#: managebooks.php:288
+msgid "Update Book Details"
+msgstr ""
+
+#: managecategories.php:36
+msgid "Category Name"
+msgstr ""
+
+#: managecategories.php:37
+msgid "Category Description"
+msgstr ""
+
+#: managecategories.php:44
+msgid "Bsc - IT"
+msgstr ""
+
+#: managecategories.php:45
+msgid "IT Computers"
+msgstr ""
+
+#: managecategories.php:47
+msgid "Edit"
+msgstr ""
+
+#: managecategories.php:48
+msgid "Delete"
+msgstr ""
+
+#: managecourses.php:21 sidebar(Not In Use).php:209 sidebar.php:209
+msgid "Manage Courses"
+msgstr ""
+
+#: managecourses.php:61
+msgid "Courses"
+msgstr ""
+
+#: managecourses.php:80 manageyears.php:85
+msgid "Save changes"
+msgstr ""
+
+#: managefines.php:23 sidebar(Not In Use).php:150 sidebar.php:150
+msgid "Manage Fines"
+msgstr ""
+
+#: managefines.php:38 managefines.php:47 manageissuedbooks.php:32
+#: manageissuedbooks.php:41
+msgid "ID"
+msgstr ""
+
+#: managefines.php:44
+msgid "Type Persons ID"
+msgstr ""
+
+#: managefines.php:53 manageissuedbooks.php:47 managereturnarchive.php:55
+msgid "Type Book ID"
+msgstr ""
+
+#: managefines.php:62
+msgid "Type Name"
+msgstr ""
+
+#: managefines.php:66
+msgid "Month"
+msgstr ""
+
+#: managefines.php:72
+msgid "All"
+msgstr ""
+
+#: managefines.php:73
+msgid "Last 30 Days"
+msgstr ""
+
+#: managefines.php:74
+msgid "Last 3 Months"
+msgstr ""
+
+#: managefines.php:75
+msgid "Last 6 Months"
+msgstr ""
+
+#: managefines.php:76
+msgid "Last 1 Years"
+msgstr ""
+
+#: managefines.php:77
+msgid "This Month"
+msgstr ""
+
+#: managefines.php:78
+msgid "This Years"
+msgstr ""
+
+#: manageissuedbooks.php:19
+msgid "Manage Issued Books"
+msgstr ""
+
+#: manageissuedbooks.php:38 managereturnarchive.php:46
+msgid "Type User ID"
+msgstr ""
+
+#: manageissuedbooks.php:56 managereturnarchive.php:64
+msgid "Type Persons Name"
+msgstr ""
+
+#: manageissuedbooks.php:72 managereturnarchive.php:86
+#: managereturnarchiveuser.php:64
+msgid "Status"
+msgstr ""
+
+#: manageissuedbooks.php:106
+msgid "Return Books Management"
+msgstr ""
+
+#: manageissuedbooks.php:115
+msgid "Select return date"
+msgstr ""
+
+#: manageissuedbooks.php:123
+msgid "Fine if Any."
+msgstr ""
+
+#: manageissuedbooks.php:132
+msgid "Note if any."
+msgstr ""
+
+#: manageissuedbooks.php:139
+msgid "Return Book"
+msgstr ""
+
+#: manageissuedbooks.php:160
+msgid "Send"
+msgstr ""
+
+#: manageissuedbooks.php:175 manageissuedbooks.php:246
+msgid "Send Sms"
+msgstr ""
+
+#: manageissuedbooks.php:181 manageissuedbooks.php:212 report_bug.php:79
+msgid "Send Email"
+msgstr ""
+
+#: manageissuedbooks.php:205
+msgid "Email Body"
+msgstr ""
+
+#: manageissuedbooks.php:239
+msgid "Sms Body"
+msgstr ""
+
+#: managepage.php:21 sidebar(Not In Use).php:242 sidebar.php:242
+msgid "Manage Pages"
+msgstr ""
+
+#: managepage.php:37
+msgid "Page ID"
+msgstr ""
+
+#: managepage.php:38
+msgid "Page Menu"
+msgstr ""
+
+#: managepage.php:40
+msgid "Page Description"
+msgstr ""
+
+#: managepage.php:41
+msgid "Created Dated"
+msgstr ""
+
+#: managereturnarchive.php:23 sidebar(Not In Use).php:178 sidebar.php:178
+msgid "View All Archive Books"
+msgstr ""
+
+#: managereturnarchive.php:85 managereturnarchiveuser.php:63
+msgid "Date Returned"
+msgstr ""
+
+#: managereturnarchive.php:88 managereturnarchiveuser.php:66
+msgid "Fine"
+msgstr ""
+
+#: managereturnarchiveuser.php:36
+msgid "View Issued Books History"
+msgstr ""
+
+#: manageslides.php:19 sidebar(Not In Use).php:226 sidebar.php:226
+msgid "Manage Slides"
+msgstr ""
+
+#: manageslides.php:56
+msgid "Slides"
+msgstr ""
+
+#: manageslides.php:76
+msgid "No slides added yet"
+msgstr ""
+
+#: manageusers.php:90
+msgid "Photo"
+msgstr ""
+
+#: manageusers.php:94
+msgid "Street Address"
+msgstr ""
+
+#: manageusers.php:95
+msgid "Course"
+msgstr ""
+
+#: manageusers.php:96 manageyears.php:63
+msgid "Years"
+msgstr ""
+
+#: manageusers.php:97
+msgid "D.A "
+msgstr ""
+
+#: manageusers.php:114
+msgid "Previous"
+msgstr ""
+
+#: manageusers.php:119
+msgid "Next"
+msgstr ""
+
+#: manageusers.php:135
+msgid "Edit User"
+msgstr ""
+
+#: manageusers.php:152
+msgid "Upload a new pic"
+msgstr ""
+
+#: manageusers.php:177
+msgid "Take a pic"
+msgstr ""
+
+#: manageusers.php:182
+msgid "Camera"
+msgstr ""
+
+#: manageusers.php:198
+msgid "Old Pic"
+msgstr ""
+
+#: manageusers.php:205
+msgid "New Pic will Appear here"
+msgstr ""
+
+#: manageusers.php:229 othersettings.php:78 sidebar(Not In Use).php:128
+#: sidebar.php:128 updateprofile.php:60
+msgid "Update Details"
+msgstr ""
+
+#: manageusers.php:301
+msgid "Year Name"
+msgstr ""
+
+#: manageyears.php:21 sidebar(Not In Use).php:211 sidebar.php:211
+msgid "Manage Years"
+msgstr ""
+
+#: module/fn_books.php:53 module/fn_books.php:86
+msgid "Adding of books is done!"
+msgstr ""
+
+#: module/fn_books.php:56
+msgid "Adding of book failed!"
+msgstr ""
+
+#: module/fn_books.php:60
+msgid "Isbn already exist!"
+msgstr ""
+
+#: module/fn_books.php:113
+msgid "User Id coudn't be found."
+msgstr ""
+
+#: module/fn_books.php:159
+msgid "Kindly Specify a image!"
+msgstr ""
+
+#: module/fn_books.php:171
+msgid "Updating of book has been done!"
+msgstr ""
+
+#: module/fn_books.php:173
+msgid "Some error occured!"
+msgstr ""
+
+#: module/fn_books.php:324
+msgid "Book Data has been updated !"
+msgstr ""
+
+#: module/fn_books.php:361
+msgid "Book has been deleted successfully."
+msgstr ""
+
+#: module/fn_books.php:376
+msgid "Book has been deactivated/not found"
+msgstr ""
+
+#: module/fn_common.php:9 module/fn_common.php:144 module/fn_common.php:182
+msgid "Invalid email format"
+msgstr ""
+
+#: module/fn_common.php:14
+msgid "Password has been send successfully"
+msgstr ""
+
+#: module/fn_common.php:17
+msgid "Password sending failed."
+msgstr ""
+
+#: module/fn_common.php:21 module/fn_common.php:194
+msgid "Email could not be sent at the time."
+msgstr ""
+
+#: module/fn_common.php:72
+msgid "Message has been send."
+msgstr ""
+
+#: module/fn_common.php:119
+msgid "LMS - BOOK ISSUED"
+msgstr ""
+
+#: module/fn_common.php:122
+msgid "LMS - BOOK RETURNED"
+msgstr ""
+
+#: module/fn_common.php:150
+msgid "From Front Page"
+msgstr ""
+
+#: module/fn_common.php:156
+msgid "Acknowledgement Received"
+msgstr ""
+
+#: module/fn_common.php:158
+msgid "Sending of message failed"
+msgstr ""
+
+#: module/fn_common.php:161
+msgid "Some information is missing"
+msgstr ""
+
+#: module/fn_common.php:187
+msgid "Email send successfully"
+msgstr ""
+
+#: module/fn_common.php:190
+msgid "Email sending failed."
+msgstr ""
+
+#: module/fn_common.php:264
+msgid "All the fiels are necessary."
+msgstr ""
+
+#: module/fn_common.php:292
+msgid "No Pages Found Yet!"
+msgstr ""
+
+#: module/fn_common.php:307
+msgid "From Safety Function"
+msgstr ""
+
+#: module/fn_course.php:13 module/fn_year.php:14
+msgid " Entry has been added!"
+msgstr ""
+
+#: module/fn_course.php:18 module/fn_year.php:19
+msgid " Entry has been deleted!"
+msgstr ""
+
+#: module/fn_course.php:23 module/fn_year.php:24
+msgid " Entry has been updated!"
+msgstr ""
+
+#: module/fn_fines.php:117
+msgid "Information has been updated."
+msgstr ""
+
+#: module/fn_inst.php:116
+msgid "Institution details has been updated."
+msgstr ""
+
+#: module/fn_issuebook.php:35
+msgid "User Limit Has reached!"
+msgstr ""
+
+#: module/fn_issuebook.php:162
+msgid "Book has been returned!"
+msgstr ""
+
+#: module/fn_login.php:36
+msgid "Password Changed Successfully"
+msgstr ""
+
+#: module/fn_login.php:51
+msgid "Password has been reseted to the default password."
+msgstr ""
+
+#: module/fn_login.php:57
+msgid "Username / Email-Id doesn't match in our system."
+msgstr ""
+
+#: module/fn_onlinedues.php:59
+msgid "Book has been returned to us."
+msgstr ""
+
+#: module/fn_othersetting.php:182
+msgid "Setting have been saved."
+msgstr ""
+
+#: module/fn_profile.php:30
+msgid "Profile has been updated successfully!"
+msgstr ""
+
+#: module/fn_requestbook.php:19
+msgid "Request has been submitted."
+msgstr ""
+
+#: module/fn_requestbook.php:62 module/fn_requestbook.php:78
+msgid "Action has been completed."
+msgstr ""
+
+#: module/fn_requestbook.php:81
+msgid "It seems like you have already voted."
+msgstr ""
+
+#: module/fn_slides.php:15
+msgid "Slide saved"
+msgstr ""
+
+#: module/fn_slides.php:18 module/fn_slides.php:33
+msgid "Slide could not be saved"
+msgstr ""
+
+#: module/fn_slides.php:30
+msgid "Slide updated"
+msgstr ""
+
+#: module/fn_slides.php:52
+msgid "Slide deleted successfully."
+msgstr ""
+
+#: module/fn_updatemanager.php:143
+msgid "No files found to be updated!"
+msgstr ""
+
+#: module/fn_updatemanager.php:180
+msgid "Files are already upto date."
+msgstr ""
+
+#: module/fn_updatemanager.php:186
+msgid "Files are locked on server."
+msgstr ""
+
+#: module/fn_uploads.php:93
+msgid "Only images should be uploaded!"
+msgstr ""
+
+#: module/fn_uploads.php:115
+msgid "Only pdf should be uploaded!"
+msgstr ""
+
+#: module/fn_uploads.php:153
+msgid "Only csv should be uploaded!"
+msgstr ""
+
+#: module/fn_user.php:59
+msgid "Profile img couldn't not be uploaded."
+msgstr ""
+
+#: module/fn_user.php:90
+msgid "Adding of user is done !. His ID :"
+msgstr ""
+
+#: module/fn_user.php:93
+msgid "Adding of user failed !."
+msgstr ""
+
+#: module/fn_user.php:98
+msgid "Person already exist !.His/Her ID : "
+msgstr ""
+
+#: module/fn_user.php:132 module/fn_user.php:139
+msgid "No profile image found."
+msgstr ""
+
+#: module/fn_user.php:155
+msgid "Updating of Information is done !"
+msgstr ""
+
+#: module/fn_user.php:159
+msgid "Updating of Information failed !."
+msgstr ""
+
+#: othersettings.php:58 sidebar(Not In Use).php:258 sidebar.php:258
+msgid "Other Settings"
+msgstr ""
+
+#: othersettings.php:108
+msgid "[MSG91.com]Message Api Key"
+msgstr ""
+
+#: othersettings.php:110
+msgid "Message Api key [https://msg91.com/]"
+msgstr ""
+
+#: othersettings.php:117
+msgid "PayPal Client ID"
+msgstr ""
+
+#: othersettings.php:120 othersettings.php:132
+msgid "Can be found in https://developer.paypal.com"
+msgstr ""
+
+#: othersettings.php:129
+msgid "PayPal Secret"
+msgstr ""
+
+#: othersettings.php:150
+msgid "Sandbox"
+msgstr ""
+
+#: othersettings.php:153
+msgid "If you set it to on all payment will be done using test environment."
+msgstr ""
+
+#: othersettings.php:166
+msgid "[ NewBook ]People To Approve"
+msgstr ""
+
+#: othersettings.php:177
+msgid "Enable Scroll On Top"
+msgstr ""
+
+#: othersettings.php:182
+msgid "If you set it on then scroll to top button will be visible on homepage."
+msgstr ""
+
+#: othersettings.php:194
+msgid "Instructions for users id card {seperate by comma}"
+msgstr ""
+
+#: othersettings.php:197
+msgid ""
+"Enter the instruction seperated by commas.Only 7 instruction are supported."
+msgstr ""
+
+#: othersettings.php:204
+msgid " Waiting Approval Msg"
+msgstr ""
+
+#: othersettings.php:211
+msgid ""
+"This will be a help notification which the users sees when he completes the "
+"payment.Here you could mention any instructions that he needs to follow "
+"after the payment process."
+msgstr ""
+
+#: othersettings.php:217
+msgid "Front Page Statement"
+msgstr ""
+
+#: othersettings.php:227
+msgid "Add You States {Seperated By Comma}"
+msgstr ""
+
+#: othersettings.php:230
+msgid "Paris,Washington"
+msgstr ""
+
+#: othersettings.php:236
+msgid "Nos of books to show"
+msgstr ""
+
+#: othersettings.php:239
+msgid "Nos of books to show for each category in front page"
+msgstr ""
+
+#: othersettings.php:245
+msgid "Limit Issue Books for students"
+msgstr ""
+
+#: othersettings.php:248
+msgid "Limit the nos of books to issed for students."
+msgstr ""
+
+#: othersettings.php:254
+msgid "Limit Issue Books for Teachers"
+msgstr ""
+
+#: othersettings.php:258
+msgid "Limit the nos of books to issed for teachers. - For future versions"
+msgstr ""
+
+#: othersettings.php:267
+msgid "Enter your local currency"
+msgstr ""
+
+#: othersettings.php:273
+msgid "Nos of menu to show"
+msgstr ""
+
+#: othersettings.php:276
+msgid "Nos of menu to show in the front page before wrapping."
+msgstr ""
+
+#: othersettings.php:283
+msgid "Define Fine Rate"
+msgstr ""
+
+#: othersettings.php:291
+msgid "Enable Online Due Payment"
+msgstr ""
+
+#: othersettings.php:294
+msgid ""
+"If you set it to on online due system will start working but make sure you "
+"enter your payment gateway details."
+msgstr ""
+
+#: othersettings.php:305
+msgid " Enable Email Sending"
+msgstr ""
+
+#: othersettings.php:308
+msgid ""
+"If you set it to on email will be send when you issue or return the book."
+msgstr ""
+
+#: othersettings.php:321
+msgid "Disable Wordpress DashBoard"
+msgstr ""
+
+#: othersettings.php:324
+msgid "If you set it on the wp-admin dashboard will be disabled."
+msgstr ""
+
+#: othersettings.php:336
+msgid "Set a fallback password"
+msgstr ""
+
+#: othersettings.php:340
+msgid ""
+"Set a default password.This password will be used if you are reseting the "
+"password.If nothing is set the default password would be '123456'"
+msgstr ""
+
+#: othersettings.php:351
+msgid "Theme Color"
+msgstr ""
+
+#: othersettings.php:361
+msgid "Width For Custom Pages"
+msgstr ""
+
+#: othersettings.php:369
+msgid "Add Css Style Front Page"
+msgstr ""
+
+#: othersettings.php:379
+msgid "Logo Css"
+msgstr ""
+
+#: othersettings.php:393
+msgid "Payment Page Notice"
+msgstr ""
+
+#: othersettings.php:401
+msgid "Add Main Notice"
+msgstr ""
+
+#: othersettings.php:405
+msgid "Enter your notice to show in the front page."
+msgstr ""
+
+#: othersettings.php:412
+msgid "Email Template For Issued Books"
+msgstr ""
+
+#: othersettings.php:423
+msgid "Email Template For Returned Books"
+msgstr ""
+
+#: report_bug.php:24 report_bug.php:44 sidebar(Not In Use).php:279
+#: sidebar.php:279
+msgid "Report Bugs"
+msgstr ""
+
+#: report_bug.php:53
+msgid "Your Name"
+msgstr ""
+
+#: report_bug.php:60
+msgid "Choose Type Of Request"
+msgstr ""
+
+#: report_bug.php:62
+msgid "Bugs"
+msgstr ""
+
+#: report_bug.php:63
+msgid "Feature"
+msgstr ""
+
+#: report_bug.php:64
+msgid "Others"
+msgstr ""
+
+#: requestbook.php:43 viewrequestbook.php:26
+msgid "Request Books"
+msgstr ""
+
+#: requestbook.php:66
+msgid "Book Name *"
+msgstr ""
+
+#: requestbook.php:70
+msgid ""
+"Full Book Name .Check Below To See If Same Book Has Already Been Requested"
+msgstr ""
+
+#: requestbook.php:76
+msgid ""
+"Google/Amazon\n"
+"                                    Book Url"
+msgstr ""
+
+#: requestbook.php:79
+msgid "Book Url If Any"
+msgstr ""
+
+#: requestbook.php:85
+msgid "Note *"
+msgstr ""
+
+#: requestbook.php:89
+msgid "Why you required this book ? A Small note is required. "
+msgstr ""
+
+#: requestbook.php:100
+msgid "Submit Request"
+msgstr ""
+
+#: requestbook.php:121
+msgid "Url"
+msgstr ""
+
+#: requestbook.php:122 viewrequestbook.php:51
+msgid "BookDesc"
+msgstr ""
+
+#: requestbook.php:126 viewrequestbook.php:55
+msgid "Added On"
+msgstr ""
+
+#: requestbook.php:142 viewrequestbook.php:63
+msgid "Visit"
+msgstr ""
+
+#: server_function.php:22
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: server_function.php:125
+msgid "Name *"
+msgstr ""
+
+#: server_function.php:130
+msgid "Email *"
+msgstr ""
+
+#: sidebar(Not In Use).php:8 sidebar.php:8
+msgid "Master Panel"
+msgstr ""
+
+#: sidebar(Not In Use).php:14 sidebar-user.php:10 sidebar.php:14
+msgid "Toggle navigation"
+msgstr ""
+
+#: sidebar(Not In Use).php:53 sidebar.php:53
+msgid "User"
+msgstr ""
+
+#: sidebar(Not In Use).php:55 sidebar.php:55
+msgid "Librarian"
+msgstr ""
+
+#: sidebar(Not In Use).php:57 sidebar.php:57
+msgid "Member since . "
+msgstr ""
+
+#: sidebar(Not In Use).php:66 sidebar-user.php:49 sidebar.php:66
+msgid "Profile"
+msgstr ""
+
+#: sidebar(Not In Use).php:70 sidebar.php:70
+msgid "FrondEnd"
+msgstr ""
+
+#: sidebar(Not In Use).php:74 sidebar-user.php:53 sidebar.php:74
+msgid "Sign out"
+msgstr ""
+
+#: sidebar(Not In Use).php:119 sidebar.php:119 userprofile.php:23
+#: userprofile.php:53
+msgid "My Profile"
+msgstr ""
+
+#: sidebar(Not In Use).php:142 sidebar.php:142
+msgid "Add Books"
+msgstr ""
+
+#: sidebar(Not In Use).php:144 sidebar.php:144
+msgid "View Books"
+msgstr ""
+
+#: sidebar(Not In Use).php:156 sidebar.php:156
+msgid "Manage Online Paid Dues"
+msgstr ""
+
+#: sidebar(Not In Use).php:171 sidebar.php:171
+msgid "View All Issued Books"
+msgstr ""
+
+#: sidebar(Not In Use).php:195 sidebar.php:195
+msgid "View All Users"
+msgstr ""
+
+#: sidebar(Not In Use).php:202 sidebar.php:202
+msgid "Manage Settings"
+msgstr ""
+
+#: sidebar(Not In Use).php:219 sidebar.php:219
+msgid "View Request Book Data"
+msgstr ""
+
+#: sidebar(Not In Use).php:234 sidebar.php:234
+msgid "Institution Setup"
+msgstr ""
+
+#: sidebar(Not In Use).php:249 sidebar.php:249
+msgid "Add Page"
+msgstr ""
+
+#: sidebar(Not In Use).php:251 sidebar.php:251
+msgid "List All Page"
+msgstr ""
+
+#: sidebar(Not In Use).php:265 sidebar.php:265
+msgid "Update Website"
+msgstr ""
+
+#: sidebar-user.php:5
+msgid "User Panel"
+msgstr ""
+
+#: sidebar-user.php:29 sidebar-user.php:37
+msgid "User Image"
+msgstr ""
+
+#: sidebar-user.php:41
+msgid "Member since"
+msgstr ""
+
+#: sidebar-user.php:102
+msgid "View Issued Books"
+msgstr ""
+
+#: sidebar-user.php:109
+msgid " View All Archive Books"
+msgstr ""
+
+#: sidebar-user.php:116
+msgid "Submit Book Request"
+msgstr ""
+
+#: updatecontrol.php:23
+msgid "Update Control"
+msgstr ""
+
+#: updatecontrol.php:39
+msgid "Upgrading your website..$root-mode"
+msgstr ""
+
+#: updatecontrol.php:46
+msgid "Check For Update"
+msgstr ""
+
+#: updatecontrol.php:51
+msgid "Remove Theme's Data"
+msgstr ""
+
+#: updatecontrol.php:56
+msgid "BackUp DB"
+msgstr ""
+
+#: updateprofile.php:38
+msgid "Update My Profile"
+msgstr ""
+
+#: updateprofile.php:113 updateprofile.php:114
+msgid "Blood Group"
+msgstr ""
+
+#: viewrequestbook.php:50
+msgid "Book Url"
+msgstr ""
+
+#: viewrequestbook.php:54
+msgid "Likes"
+msgstr ""
+
+#: viewrequestbook.php:82
+msgid "No request yet."
+msgstr ""
+

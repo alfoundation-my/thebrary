@@ -1,0 +1,363 @@
+@import url(../fonts/fonts.css);
+
+body, p {
+    font-family: Poppins, sans-serif
+}
+
+.book_f, .ribbon-red span, ul.CTAs a {
+    text-align: center
+}
+
+.book_f, .show_pointer {
+    cursor: pointer
+}
+
+body {
+    background: #fafafa
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #1d1b1b
+}
+
+a, a:focus, a:hover {
+    color: inherit;
+    text-decoration: none;
+    transition: all .3s
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .1)
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: 0 !important;
+    border: none
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 15px 0
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    perspective: 1500px
+}
+
+#sidebar {
+    min-width: 20%;
+    background: #009688;
+    color: #fff;
+    transition: all .6s cubic-bezier(.945, .020, .27, .665);
+    transform-origin: bottom left
+}
+
+#sidebar.active {
+    margin-left: -250px;
+    transform: rotateY(100deg)
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #009688;
+    border-bottom: 1px solid #fff
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b
+}
+
+#content, ul.CTAs {
+    padding: 20px
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block
+}
+
+#sidebar ul li a:hover {
+    color: #000;
+    background: #fff
+}
+
+#sidebar ul li.active > a, a[aria-expanded=true] {
+    color: #fff;
+    background: #009688
+}
+
+a[data-toggle=collapse] {
+    position: relative
+}
+
+a[aria-expanded=false]::before, a[aria-expanded=true]::before {
+    content: '\e252';
+    display: block;
+    position: absolute;
+    right: 1px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+
+}
+
+ul ul a, ul.CTAs a {
+    font-size: .9em !important
+}
+
+a[aria-expanded=true]::before {
+    content: '\e253'
+}
+
+/*ul ul a {*/
+    /*padding-left: 30px !important;*/
+    /*background: #009688*/
+/*}*/
+
+ul.CTAs a {
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5
+}
+
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important
+}
+
+#content {
+    min-height: 100vh;
+    transition: all .3s;
+    width: 100%
+}
+
+.book_f, .pad_10 {
+    padding: 10px
+}
+
+#sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5
+}
+
+#sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #555;
+    transition: all .8s cubic-bezier(.81, -.33, .345, 1.375);
+    transition-delay: .2s
+}
+
+#sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px)
+}
+
+#sidebarCollapse span:nth-of-type(2) {
+    opacity: 0
+}
+
+#sidebarCollapse span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px)
+}
+
+#sidebarCollapse.active span {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+        transform: rotateY(90deg)
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+        transform: none
+    }
+
+    #sidebarCollapse span:first-of-type, #sidebarCollapse span:last-of-type, #sidebarCollapse span:nth-of-type(2) {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto
+    }
+
+    #sidebarCollapse.active span {
+        margin: 0 auto
+    }
+
+    #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px)
+    }
+
+    #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0
+    }
+
+    #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px)
+    }
+}
+
+.hide_text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.book_f {
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+    height: auto
+}
+
+.ribbon-green, .ribbon-red {
+    overflow: hidden;
+    height: 75px
+}
+
+.pad_5 {
+    padding: 5px
+}
+
+.doc-section {
+    display: flow-root !important
+}
+
+.underline {
+    text-decoration: underline
+}
+
+.blue {
+    color: #00f
+}
+
+.red {
+    color: red
+}
+
+.ribbon-green span, .ribbon-red span {
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 20px;
+    display: block;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1)
+}
+
+.ribbon-red {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 1;
+    width: 75px;
+    text-align: right
+}
+
+.ribbon-red span {
+    font-size: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    background: #79A70A;
+    background: linear-gradient(#F70505 0, #8F0808 100%);
+    position: absolute;
+    top: 19px;
+    left: -21px
+}
+
+.ribbon-red span::after, .ribbon-red span::before {
+    content: "";
+    top: 100%;
+    z-index: -1;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #8F0808;
+    position: absolute
+}
+
+.ribbon-red span::before {
+    left: 0;
+    border-left: 3px solid #8F0808;
+    border-right: 3px solid transparent
+}
+
+.ribbon-red span::after {
+    right: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #8F0808
+}
+
+.ribbon-green {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 1;
+    width: 75px;
+    text-align: right
+}
+
+.ribbon-green span {
+    font-size: 10px;
+    text-align: center;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    background: #79A70A;
+    background: linear-gradient(#9BC90D 0, #79A70A 100%);
+    position: absolute;
+    top: 19px;
+    left: -21px
+}
+
+.ribbon-green span::after, .ribbon-green span::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A
+}
+
+.ribbon-green span::before {
+    left: 0;
+    border-left: 3px solid #79A70A;
+    border-right: 3px solid transparent
+}
+
+.ribbon-green span::after {
+    right: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #79A70A
+}
+
+#content {
+    padding-bottom: 0
+}
