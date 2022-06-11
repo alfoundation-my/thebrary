@@ -6,7 +6,7 @@
         echo $version; ?>
     </div>
     <strong>Copyright © 2017-<?php echo date("Y"); ?> <a
-                href="https://www.library-management.com">LMS</a>.</strong><?php _e('All
+                href="https://alfoundation.my/thebrary">theBrary</a>.</strong><?php _e('All
   rights reserved.', 'library-management-system'); ?>
 </footer>
 </div>
